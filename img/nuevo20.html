@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDO DIGITAL</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            background-image: url('0fd83ddb46931d63e433d189d3f52fe9--computer-wallpaper-ds-max.JPG');
+            background-size: cover;
+            background-position: center; /* Centra el fondo */
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .circulo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-image: url('imagen_circulo.jpg');
+            background-size: cover;
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        .logo {
+            width: 70px; /* Tamaño del logo */
+            height: auto; /* Altura automática para mantener la proporción */
+            position: absolute;
+            top: 10px; /* Ajusta la posición vertical */
+            left: 10px; /* Ajusta la posición horizontal */
+            z-index: 2; /* Coloca la imagen sobre el contenido */
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .producto {
+            width: 250px;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .producto:hover {
+            transform: translateY(-10px);
+        }
+
+        .producto img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .producto h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .producto p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .producto button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .producto button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img_9_1713959841826.jpg" alt="Logo">
+        <div class="circulo"></div>
+        <h1>MUNDO DIGITAL</h1>
+    </header>
+    <nav>
+		<a href="#">INICIO</a>
+        <!-- Puedes agregar más enlaces aquí -->
+    </nav>
+
+    <main>
+        <div class="producto">
+            <img src="f0bde9062ced6e08276cf02c28354d0e.jpg" alt="Cargador">
+            <h2>Cargador</h2>
+            <p>Precio: $250.00</p>
+            <button>Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="img_4_1713959750662.jpg" alt="Control de Play">
+            <h2>Control de Play</h2>
+            <p>Precio: $250.00</p>
+            <button>Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="img_1_1713959716750.jpg" alt="Jafis Audífonos">
+            <h2>Jafis Audífonos</h2>
+            <p>Precio: $500.00</p>
+            <button>Agregar al Carrito</button>
+        </div>
+		
+		<div class="producto">
+            <img src="cargador-auto-coche-itian-de-carga-rapida-tipo-c-celulares--D_NQ_NP_768115-MLM25136403048_102016-F.JPG" alt="Jafis Audífonos">
+            <h2>Jafis Audífonos</h2>
+            <p>Precio: $650.00</p>
+            <button>Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="71M43gZEAqL._SX569_.jpg" alt="Monitor">
+            <h2>Monitor</h2>
+            <p>Precio: $1500.00</p>
+            <button>Agregar al Carrito</button>
+        </div>
+		 
+		 <div class="producto">
+            <img src="cover_program-equipos-elect-02-800x387.JPG" alt="Monitor">
+            <h2>REPARACIONES RAPIDAS Y EFECTIVAS </h2>
+           
+        </div>
+		
+		<div class="producto">
+            <img src="img_8_1713959814269.jpg" alt="Monitor">
+            <h2>DE PENDE EL INCONBENIENTE</h2>
+           
+        </div>
+		
+		<div class="producto">
+            <img src="img_7_1713959799508.jpg" alt="Monitor">
+            <h2>QUE ESPERAS REPARA Y COMPRA YA </h2>
+           
+        </div>
+
+        <!-- Puedes agregar más productos aquí -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MUNDO DIGITAL. YAMILE ISABEL VICTORIANO.</p>
+    </footer>
+</body>
+</html>
